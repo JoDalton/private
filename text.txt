@@ -1,0 +1,47 @@
+Exigence Functionelle et Non functionelle du projet
+   1 -Traiter une requete : creer une rquete et peut etre enregistrer par n’importe quelle emplye dans n’inport quelle bureau 
+Doit etre executer par un emplye du departement responsable.
+Choisir le type de requete et wntrer une priorite desiree et de facon optionnelle une description .
+  1.1)  Si la requete est approuvee : elle est assignee au chef Ti responsable de l’executer.
+-Le Chef TI assigne la requête à l’un des membres de son département. 
+- La personne chargée d’exécuter la tâche reçois une notification. La personne peut accepter ou rejeter cette tâche avec justification. 
+- Quand l’employé finit d’exécuter la requête, il utilise le système pour changer l’état de la requête à « Exécutée ».
+1.2))  Si la requete est approuvee :
+- Dans le cas où la tâche est rejetée, elle est retournée au Chef TI pour qu’elle soit assignée à un autre employé. 
+
+2)   Reperer/ modifier une requete :
+Etre en mesure de reperer la requete enfin d’en connaitre l’etat .
+Si une requete n’a pas encore été aprouver par le chef il es possible de la modifier ou de l’annuler .
+3)  Gerer les types de requete .
+3.1)Créer un nouveau type requte :
+- il faudra y integrer un nom, 
+-   une description de la requete 
+-definir le temps maximal de service .
+-le cout approxime d’execution
+
+3.2) modifier : etre capable de modifier la requete  et certaine information importante comme 
+Modifier le nom de la requete .
+Modifier la description de la requete .
+Modifier le temps maximal de service .
+Modifier le cout approxime d’execution.
+3.3) le suprimer lister les types de requetes existants. 
+4)  Gerer la securite   :
+4.1) Le profil général: le profile général inclus tous les employes ayant acces au system. Ce groupe peuvent 
+Traiter une requete.
+Reperer et lister les requetes dont il est responsable .
+4.2)Administrateur : ce sont les administrateur du systeme.
+Modifier l’information d’une requete   d’une requete  (autre que l’état).
+De gerer les  type de requetes.
+ainsi que de faire toute la configuration des utilisateurs et des groupes dans le système.
+4.3)Modicateur : ce sont les chefs de la compagnie qui peuvent 
+modifier l’information d’une requete (autre que l’etat).
+4.4)Executeur : il s’agit d’un profil pour les analystes TI qui execute les requetes
+Ils peuvent  modifier l’état d’une requete 
+Ajouter des information  comme le cout de l’execution , le temps d’exécution .
+Peuvent ajouter des commentaires.
+
+5)   Interagir avec des autres systèmes :le système  doit interagir avec le système comptable pour controler les depenses associees a l’execution de chaque requete .
+5.1) Authentification : Ces informations collecter,  sont utliser pour identifier les employés, permettre leur accès au système (authentification) et pour acheminer les requêtes.
+5.2)Controle des cout des requete : le système  doit interagir avec le système comptable pour controler les depenses associees a l’execution de chaque requete.
+
+
